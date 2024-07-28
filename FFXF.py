@@ -1,4 +1,19 @@
 #!/data/data/com.termux/files/usr/bin/AMER
+import os
+B = '\033[2:36m'#سمائي
+print(B+' جاري تحميل مكاتب') 
+os.system('termcolor') 
+os.system('webbrowser') 
+import requests 
+resop = requests.get(f"https://mail.google.com") 
+der=respo.header
+print(der['Date']) 
+import os,requests,sys,time,datetime
+now = datetime.datetime.today()
+an = datetime.datetime.now()
+an2 = datetime.datetime(2026,7, 28,00, 30, 0)
+hours = (now.hour)
+code='7'
 import termcolor as t 
 import os 
 import time , sys , random 
